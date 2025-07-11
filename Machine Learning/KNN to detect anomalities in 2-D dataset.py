@@ -15,3 +15,8 @@ threshold = 3
 
 anomalies = data[np.abs(z_scores) > threshold] #data points having z-scores > 3
 # threshold is mostly set to 3
+
+''' Let's implement KNN to detect anomalities in 2-D dataset.
+    here we won't use z-score or IQR for 2-D dataset we will do KNN.
+    2-D datset means -> [(x1,y1),(x2,y2),(x3,y3)....]
+'''
