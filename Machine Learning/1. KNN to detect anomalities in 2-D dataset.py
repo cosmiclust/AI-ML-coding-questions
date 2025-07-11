@@ -47,5 +47,6 @@ def eud_dist_cal(a, b):        # here a, b means a = [x1,y1] & b = [x2,y2]
 # 5. Finally, sort all points by these scores to detect anomalies.
 
 def anomaly_score(data,k=2):
+  
  
   
